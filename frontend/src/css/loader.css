@@ -1,0 +1,21 @@
+/* Dashboard.css */
+
+/* Add styles for the rainbow loader here */
+.rainbow-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height as needed */
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  /* Hide the loader initially */
+  .hidden {
+    display: none;
+  }
+  
+  /* Show the loader when isLoading is true */
+  .visible {
+    display: block;
+  }
+  
