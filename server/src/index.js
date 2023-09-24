@@ -41,9 +41,9 @@ const dbUri = 'mongodb+srv://ydvayush06:O7ayEQURTA5cezxN@cluster0.co9dafx.mongod
 mongoose.connect(dbUri);
 
 
-// app.get('/',authCheck,(req,res)=>{
-//     res.send(`your email :${req.user.email}`);    
-// })
+app.get('/',authCheck,(req,res)=>{
+    res.send(`your email :${req.user.email}`);    
+})
 
 module.exports=app.listen(3600,()=>{
     console.log("server started at port 3500");
