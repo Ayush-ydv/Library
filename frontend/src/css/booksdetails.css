@@ -2,24 +2,20 @@
 * {
 	box-sizing: border-box;
 }
-/* h3 {
-	font-size: 0.7em;
-	letter-spacing: 1.2px;
-	color: #a6a6a6;
-} */
+
  img {
 	max-width: 100%;
 	filter: drop-shadow(1px 1px 3px #a6a6a6);
 	
 }
-/* ----- Product Section ----- */
+
 .product {
 	display: grid;
 	grid-template-columns: 0.9fr 1fr;
 	margin: auto;
 	padding: 0.5em -2em 2.5em 2em;
 }
-/* ----- Photo Section ----- */
+
 
 .photo {
 	width: 250px;
@@ -30,7 +26,7 @@
 }
 
 
-/* ----- Informations Section ----- */
+
 .product__info {
 	padding: 2.5em 0 2em 6em;
 	margin-left: -130px;

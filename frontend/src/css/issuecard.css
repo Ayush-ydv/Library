@@ -2,7 +2,7 @@
 .wrappers {
   height: 300px;
   width: 437px;
-  /* margin: 50px auto; */
+ 
   border-radius: 7px 7px 7px 7px;
  margin:30px 20px 10px 30px;
  display: inline-block;
@@ -35,10 +35,7 @@
 
 }
 
-/* .issuecard-text {
-  height: 300px;
-  width: 327px;
-} */
+
 
 .issuecard-text h1 {
   margin: 0 0 0 60px;

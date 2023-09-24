@@ -76,7 +76,7 @@ export const BooksNav = ({name}) => {
                                             setValue('Author')
                                             setOption('author')
                                         }}>Author</a></li>
-                                        {/* <li><a className="dropdown-item" href="#" onClick={() => setOption('Category')}>Category</a></li> */}
+                                       
                                     </ul>
                                 
       </li>
