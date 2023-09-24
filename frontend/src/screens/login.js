@@ -6,7 +6,7 @@ import axios from '../api/axios';
 import { useToasts } from 'react-toast-notifications';
 
 
-const LOGIN_URL = '/auth/signin';
+const LOGIN_URL = 'https://libr-fcjr.onrender.com/auth/signin';
 
 
 export default function LoginCard() {
